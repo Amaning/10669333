@@ -1,0 +1,90 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+
+{
+
+int results;
+
+cout << "Follow instructions to find out your grade"<<endl<<endl;
+
+
+cout << "Enter your results"<<endl<<endl;
+
+
+
+cin >> results;
+
+if ((results >=80)&&(results<=100))
+{
+
+cout << "Your grade is A"<< endl;
+
+}
+
+else if (results>=75&&results<80)
+{
+
+cout << "Your Grade is B+"<< endl;
+
+}
+
+else if (results >=70&&results<74)
+{
+
+cout << "Your Grade is B"<<endl;
+
+
+}
+else if (results >=65&&results<69)
+{
+
+cout << "Your Grade is C+"<<endl;
+
+}
+
+else if (results >=60&&results<64)
+{
+
+cout << "Your Grade is c"<<endl;
+
+}
+
+else if (results >=55&&results<59)
+
+{
+
+cout << "Your Grade is D+"<<endl;
+
+}
+else if (results >=50&&results<54)
+
+{
+
+cout << "Your Grade is D"<<endl;
+
+}
+else if (results >=40&&results<49)
+
+{
+
+cout << "Your Grade is E"<<endl;
+
+}
+else if (results >=0&&results<40)
+
+{
+
+cout << "Your Grade is F"<<endl;
+
+}
+
+
+return 0;
+
+
+}
+
